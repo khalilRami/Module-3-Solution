@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+
+}
+
+
+/*Header*/
+
+#header-nav {
+
+	background-color: darkgray;
+	border-radius: 0;
+	border: 2px solid black;
+
+}
+
+.navbar-brand {
+padding-top: 25px;
+margin-bottom: 15px;
+}
+
+.navbar-brand h1 { 
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 15px
+
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 15px;
+}
+
+
+.navbar-nav{
+	margin: 0px -15px;
+}
+
+
+#nav-list li{
+  background:#fff;
+  border:1px solid;
+  text-align: center;
+}
+#nav-list li:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 600;
+  font-size: 1em;
+
+}
+
+
+/*End header*/
+
+/*Main content*/
+
+#main-title {
+
+font-size: 1.5em;
+margin: 15px 0px;
+color: black;
+font-weight: bold;
+}
+
+
+#Menu-title{
+
+font-weight:800;
+font-size: 1.2em;
+
+}
+
+#main-content .box{
+  background-color: darkgrey;
+  padding: 0px 10px ;
+
+}
+
+#main-content .box .menu-description {
+font-weight: 600;
+font-size: 1em;
+text-align: justify;
+
+
+
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+ 
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+ 
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #main-content .box{
+
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+
+  }
+
+	
+
+  }
+
+  
+ /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+   /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+    margin-left: 18px;
+  }
+  /* End Header */
+
+
+#main-content .box{
+
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+
+  }
+
+}
+
